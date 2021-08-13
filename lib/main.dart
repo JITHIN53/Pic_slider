@@ -11,12 +11,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // final _imagePaths = [
-  //   'images/img01.jpg',
-  //   'images/img02.jpg',
-  //   'images/img03.jpg',
-  //   'images/img04.jpg',
-  // ];
+  final _imagePaths = [
+    'images/img01.jpg',
+    'images/img02.jpg',
+    'images/img03.jpg',
+    'images/img04.jpg',
+  ];
 
   @override
   Widget build(BuildContext context) {
