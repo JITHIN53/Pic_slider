@@ -21,11 +21,13 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
+        home: Scaffold(appBar: AppBar(
+          title: Center(child: Text('My PiCs')),backgroundColor: Colors.transparent,
+        ),
           body: SafeArea(
             child: Center(
               child: CarouselSlider(
-                  options: CarouselOptions(autoPlay: true),
+                  options: CarouselOptions(autoPlay: true,),
                   items: _imagePaths.map((imagePath) {
                     return Builder(builder: (context) {
                       return Container(
